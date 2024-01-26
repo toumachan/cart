@@ -1,0 +1,39 @@
+.cont {
+    margin: 100px auto 0;
+}
+.date {
+    font-size: 14px;
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ttl {
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+}
+.blogBody h1,
+.blogBody h2,
+.blogBody h3,
+.blogBody h4,
+.blogBody h5 {
+    margin: 30px 0 20px;
+    font-weight: 700;
+}
+.blogBody h1 {
+    font-size: 20px;
+}
+.blogBody h2 {
+    font-size: 18px;
+}
+.blogBody h3,
+.blogBody h4,
+.blogBody h5 {
+    font-size: 16px;
+}
+.blogBody p {
+    margin: 20px 0;
+}
+.blogBody figure {
+    margin: 20px 0;
+}

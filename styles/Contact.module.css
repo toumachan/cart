@@ -1,0 +1,56 @@
+.cont {
+    margin: 100px auto 0;
+}
+.mainTtl {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.mainTtl::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tel {
+    text-align: center;
+}
+.tel a {
+    font-weight: 700;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form {
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+}
+.form th,
+.form td {
+    padding: 15px 0;
+}
+.form th {
+    width: 200px;
+    vertical-align: middle;
+}
+.form td input,
+.form td textarea {
+    background: #eee;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form td input {
+    height: 50px;
+}
+.form td textarea {
+    height: 200px;
+    resize: none;
+}

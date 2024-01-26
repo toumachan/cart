@@ -1,0 +1,134 @@
+/* header
+----------------------------------------- */
+header {
+    background: #dddddd;
+}
+header .headerBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: auto;
+    max-width: 1000px;
+}
+header nav ul {
+    display: flex;
+    gap: 0 20px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* contactBox
+----------------------------------------- */
+.contactBox {
+    margin: 100px auto 0;
+    border: 1px solid;
+    max-width: 1000px;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+.contactBox h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.contactBox .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 0 50px;
+}
+.contactBox .tel a {
+    font-size: 40px;
+}
+.contactBox .btn a {
+    display: inline-block;
+    width: 300px;
+    line-height: 1;
+    padding: 15px 0;
+    text-align: center;
+    border: 1px solid;
+    font-weight: 700;
+    font-size: 20px;
+}
+.contactBox .btn a:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+/* footer
+----------------------------------------- */
+footer {
+    margin-top: 100px;
+    background: #333;
+    padding: 70px 0 50px;
+    color: #fff;
+    text-align: center;
+}
+footer .footerLogo {
+    font-size: 20px;
+}
+footer .footerNav {
+    margin: 50px auto;
+}
+footer .footerNav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px 30px;
+}
+footer .footerNav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 共通
+----------------------------------------- */
+.inner {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* 下層共通
+----------------------------------------- */
+.common .key {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #aaa;
+}
+.common .keyText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* ボタン
+----------------------------------------- */
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+.button a {
+    display: inline-block;
+    line-height: 1;
+    padding: 15px 30px;
+    border: 1px solid;
+    text-align: center;
+    min-width: 300px;
+    transition: all .5s;
+}
+.button a:hover {
+    background: #333;
+    color: #fff;
+    transition: all .5s;
+}
+
+.itemSingle .swiper-slide-thumb-active {
+    opacity: 1 !important;
+}

@@ -1,0 +1,22 @@
+.cont {
+    margin: 100px auto 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.flex:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+.flex:last-of-type {
+    margin-bottom: 0;
+}
+.img {
+    width: 48%;
+}
+.text {
+    width: 48%;
+    line-height: 2;
+}

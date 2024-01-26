@@ -1,0 +1,57 @@
+.cont {
+    margin: 100px auto 0;
+}
+.mainTtl {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.mainTtl::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img {
+    width: 48%;
+}
+.textArea {
+    width: 48%;
+}
+.subTtl {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.text {
+    line-height: 2;
+}
+.table {
+    width: 100%;
+}
+.table tr {
+    border-top: 1px solid #999;
+}
+.table tr:last-of-type {
+    border-bottom: 1px solid #999;
+}
+.table th,
+.table td {
+    padding: 25px 30px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+.table th {
+    width: 250px;
+}

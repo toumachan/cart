@@ -1,0 +1,76 @@
+.cont {
+    margin: 100px auto 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.imgBox {
+    width: 48%;
+    max-width: 600px;
+}
+.itemSwiper .img {
+    height: 300px;
+}
+.itemSwiper img {
+    object-fit: cover;
+}
+
+.itemThumbnail {
+    margin-top: 15px;
+}
+.itemThumbnail .img {
+    opacity: 0.6;
+    cursor: pointer;
+    height: 100px;
+}
+.itemThumbnail .img img {
+    object-fit: cover;
+}
+
+.textBox {
+    width: 48%;
+    box-sizing: border-box;
+}
+.ttl {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 30px 0;
+}
+.ttl::before {
+    content: "◾️";
+    padding-right: 10px;
+}
+.textInfo {
+    line-height: 1.8;
+}
+.cartJs {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+.cartJsTh {
+    vertical-align: middle;
+}
+.cartJsInputNumber {
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    line-height: 1;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+.cartJsSubmit {
+    width: 300px;
+    line-height: 1;
+    padding: 14px 0;
+    border: 1px solid;
+    text-align: center;
+    transition: all .3s;
+}
+.cartJsSubmit:hover {
+    background: #333;
+    color: #fff;
+    transition: all .3s;
+}
